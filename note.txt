@@ -1,0 +1,7 @@
+pip3 freeze > requirements.txt
+pip3 install -r requirements.txt
+
+python3 -m venv fr_env
+source fr_env/bin/activate
+
+https://www.pyimagesearch.com/2018/06/18/face-recognition-with-opencv-python-and-deep-learning/
